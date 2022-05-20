@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snap</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap" rel="stylesheet">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+<!---------------- NAVIGATION (Start) ---------------->
+  <header class="nav">
+    <div class="desktop-nav">
+      <div>
+        <img class="logo" src="assets/logo.svg" alt="snap logo">
+      </div>
+      <button class="mobile-nav-toggle" aria-controls="nav-items" aria-expanded="false"><span class="sr-only">Menu</span></button>
+      <nav>
+        <div id="nav-items" class="nav-items" data-visible="false">
+          <div> <!-- nav-item 1 -->
+            <button class="main-link p1-reg text-gray">Features</button>
+            <ul class="sub-links">
+              <li>
+                <a href="#" class="p1-reg text-gray">
+                  <img class="sub-icons sub-icons-1" src="assets/icon-todo.svg" alt="Notepad Icon">
+                  <span>Todo List</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="p1-reg text-gray">
+                  <img class="sub-icons sub-icons-2" src="assets/icon-calendar.svg" alt="Calendar Icon">
+                  <span>Calendars</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="p1-reg text-gray">
+                  <img class="sub-icons sub-icons-3" src="assets/icon-reminders.svg" alt="Bell Icon">
+                  <span>Reminders</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="p1-reg text-gray">
+                  <img class="sub-icons sub-icons-4" src="assets/icon-planning.svg" alt="Clock Icon">
+                  <span>Planning</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div> <!-- nav-item 2 -->
+            <button class="main-link p1-reg text-gray">Company</button>
+            <ul class="sub-links">
+              <li><a href="#" class="p1-reg text-gray">History</a></li>
+              <li><a href="#" class="p1-reg text-gray">Our Team</a></li>
+              <li><a href="#" class="p1-reg text-gray">Blog</a></li>
+            </ul>
+          </div>
+          <ul class="other-links"> <!-- nav-items 3 & 4 -->
+            <li><a href="#" class="p1-reg text-gray">Careers</a></li>
+            <li><a href="#" class="p1-reg text-gray">About</a></li>
+          </ul>
+          <div class="client-btn"> <!-- login-register -->
+            <button class="btn-1 p1-reg text-gray">Login</button>
+            <button class="btn-2 p1-reg text-gray">Register</button>
+          </div>
+        </div>      
+      </nav>
+    </div>
+    <div class="desktop-client-btn">
+      <button class="btn-1 p1-reg text-gray">Login</button>
+      <button class="btn-2 p1-reg text-gray">Register</button>
+    </div>
+  </header>
+<!---------------- NAVIGATION (End) ---------------->
+
+<!---------------- MAIN CONTENT (Start) ---------------->
+  <main class="cta-section">
+    <div class="img-div">
+      <img class="img-header img-mobile" src="assets/image-hero-mobile.png" alt="man in tech with a laptop">
+      <img class="img-header img-desktop" src="assets/image-hero-desktop.png" alt="man in tech with a laptop">
+    </div>
+    <div class="info-div">
+      <h1 class="h1-bold text-black"><span class="d-block">Make</span> remote work</h1>
+      <p class="p2-reg text-gray">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+      <button class="cta-btn p-bold">Learn more</button>
+      <div class="featured-logos">
+        <img class="client-logo-1" src="assets/client-databiz.svg" alt="databiz logo">
+        <img class="client-logo-2" src="assets/client-audiophile.svg" alt="audiophile logo">
+        <img class="client-logo-3" src="assets/client-meet.svg" alt="meet logo">
+        <img class="client-logo-4" src="assets/client-maker.svg" alt="maker logo">
+      </div>
+    </div>
+  </main>
+  <!---------------- MAIN CONTENT (End) ---------------->
+  <footer>
+    <p>Challenge by <a href="https://www.frontendmentor.io/home" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Orlando Ursua</a>.</p>
+  </footer>  
+</body>
+</html>
